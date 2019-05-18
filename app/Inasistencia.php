@@ -11,6 +11,6 @@ class Inasistencia extends Model
     public $timestamps = false;
 
     protected $fillable = [
-        'INA_CODIGO','INA_ASIGNATURA','INA_FECHA','INA_ALUMNO','INA_USUARIO'
+        'INA_CODIGO','INA_ASIGNATURA','INA_FECHA','INA_ALUMNO','INA_USUARIO','INA_SECCION'
     ];
 }

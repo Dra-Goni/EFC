@@ -1,6 +1,6 @@
 <div class="form-row">
         <div class="form-group col-12">
-            <label for="inputEmail">Nombre</label>   
+            <label for="inputEmail">Rut</label>   
             <input type="text"  value="{{$Alumnos->ALU_RUT ?? ''}}"  class="form-control" name="ALU_RUT" >    
         </div>
     </div>

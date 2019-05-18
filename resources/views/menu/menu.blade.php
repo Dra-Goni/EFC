@@ -6,7 +6,7 @@
     <div class="container mt-5">
         <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{url("/")}}">Menu Principal</a></li>
+        <li class="breadcrumb-item">Menu Principal</li>
       </ol>
     </nav>
         
@@ -18,11 +18,11 @@
                           <div class="card-body d-flex flex-column align-items-start">
                              
                             <h3 class="mb-0">
-                              <a class="text-dark" href="{{url("/rol/historial")}}">Registrar Inacistencias  </a>
+                              <a class="text-dark" href="{{url("/inasistencia/crear")}}">Registrar Inacistencias  </a>
                             </h3>
                            
                             <p class="card-text mb-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sapiente quam aut accusantium, dignissimos repellendus quisquam consequuntur eos harum, qui soluta cum quas. Dolor sapiente itaque vel laboriosam hic! Pariatur?</p>
-                            <a href="{{url("/cargo/historial")}}">Ir al sitio</a>
+                            <a href="{{url("/inasistencia/crear")}}">Ir al sitio</a>
                           </div>
                           <i class="fas fa-chess fa-10x"></i>
                           &nbsp;&nbsp;

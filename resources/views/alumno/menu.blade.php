@@ -6,7 +6,7 @@
     <div class="container mt-5">
         <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{url("/menu")}}">Menu Principal</a></li>
+        <li class="breadcrumb-item"><a href="{{url("/")}}">Menu Principal</a></li>
      
         <li class="breadcrumb-item active " aria-current="page">Menu Alumnos</li>
       </ol>

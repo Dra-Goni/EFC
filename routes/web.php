@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('/', 'MenuController@index');
+Route::get('/', 'MenuController@index')->middleware('auth');
 
 Route::get('/login',['as' => 'login', 'uses'=>'LoginController@inicio'] );
 Route::post('/login',['as' => 'iniciar', 'uses'=>'LoginController@login']);
 Route::get('/logout',['as' => 'logout', 'uses'=>'LoginController@logout']);
 
 
-Route::group(['prefix' => 'alumno'], function () {
+Route::group(['prefix' => 'alumno', 'middleware' => 'auth'], function () {
     Route::get('/menu', 'AlumnoController@index');
     Route::get('/crear', 'AlumnoController@crear');
     Route::get('/historial', 'AlumnoController@ver');
@@ -26,4 +26,9 @@ Route::group(['prefix' => 'alumno'], function () {
     Route::get('/editar/{alumno}', 'AlumnoController@editar');
     Route::put('/modificar/{alumno}', 'AlumnoController@modificar');
     Route::delete('/eliminar/{alumno}', 'AlumnoController@eliminar');
+});
+
+Route::group(['prefix' => 'inasistencia', 'middleware' => 'auth'], function () {
+    Route::get('/crear', 'InasistenciaController@crear');
+    Route::post('/crear', 'InasistenciaController@create');
 });

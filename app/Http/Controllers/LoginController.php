@@ -22,7 +22,7 @@ class LoginController extends Controller
     
          
          if (Auth::attempt($userdata)) {
-             return redirect('/menu');
+             return redirect('/');
         }else{
          
              return redirect('/login')->with('popup', 'open');
