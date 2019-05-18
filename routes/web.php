@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'LoginController@inicio');
+
+Route::get('/login',['as' => 'login', 'uses'=>'LoginController@inicio'] );
+Route::post('/login',['as' => 'iniciar', 'uses'=>'LoginController@login']);
+Route::get('/logout',['as' => 'logout', 'uses'=>'LoginController@logout']);

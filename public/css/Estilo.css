@@ -1,0 +1,37 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.linked
+{
+    text-decoration: none;
+    display:block;
+    padding:.5rem 1rem;
+    color: black;
+}
+
+.linked:visited
+{
+    text-decoration: none;
+    color:blue;
+
+}
+
+.linked:hover {
+    text-decoration: none;
+    color: red;
+    transition: all 1s;
+}
+
+.iconos-sociales{
+    position: absolute;
+    right: 20px;
+    top: -4px;
+}
+
+.weibo{
+    background:url("../5.png") no-repeat center  fixed  ;
+    background-size: cover;
+}
+
