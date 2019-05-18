@@ -39,4 +39,8 @@ Route::group(['prefix' => 'seguimiento', 'middleware' => 'auth'], function () {
     Route::post('/no', 'SeguimientoController@no');
     Route::post('/yes', 'SeguimientoController@si');
     Route::post('/respuesta', 'SeguimientoController@respuesta');
+    Route::get('/cordinador', 'SeguimientoController@ver_cor');
+    Route::post('/no_cor', 'SeguimientoController@no_cor');
+    Route::post('/yes_cor', 'SeguimientoController@si_cor');
+    Route::post('/respuesta_cor', 'SeguimientoController@respuesta_cor');
 });

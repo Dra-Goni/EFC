@@ -15,14 +15,14 @@
      {{ session('msg') }}
     </div>
    @endif
-<form method="POST" action="{{ url('/seguimiento/yes') }}">  
+<form method="POST" action="{{ url('/seguimiento/yes_cor') }}">  
     @csrf
     <div class="container">
             <div class="col-12 mt-3">
                 <div class="jumbotron">
                     <div class="form-row">
                         <div class="form-group col-12">
-                            <h3>Registrar Respuesta de Correo</h3>
+                            <h3>Registrar Respuesta de LLamado</h3>
                             <hr>
                         </div>
                     </div>

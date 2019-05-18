@@ -1,5 +1,5 @@
 <header class="navbar  navbar-light bg-light navbar-expand-lg sticky-top text-capitalize " role="navigation">
-    <span class="navbar-brand">Agenda Me</span>
+    <span class="navbar-brand">Ip Los Mejores</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAgenda" aria-controls="navbarNavAgenda" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>

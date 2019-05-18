@@ -11,6 +11,6 @@ class Respuesta extends Model
     public $timestamps = false;
 
     protected $fillable = [
-        'RES_CODIGO','RES_RESPUESTA','RES_INASISTENCIA'
+        'RES_CODIGO','RES_RESPUESTA','RES_INASISTENCIA','RES_ACCION'
     ];
 }
