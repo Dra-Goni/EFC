@@ -34,11 +34,11 @@
                   <div class="card-body d-flex flex-column align-items-start">
                     
                     <h3 class="mb-0">
-                      <a class="text-dark" href="{{url("/rol/crear")}}">Control De Seguimiento</a>
+                      <a class="text-dark" href="{{url("/seguimiento/menu")}}">Control De Seguimiento</a>
                     </h3>
                    
                     <p class="card-text mb-auto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, reprehenderit dolore delectus totam vel natus sunt voluptates consequatur nam nostrum architecto qui, nihil minima quaerat magnam voluptate atque, non labore. </p>
-                <a href="{{url("/cargo/crear")}}">Ir al sitio</a>
+                <a href="{{url("/seguimiento/menu")}}">Ir al sitio</a>
                   </div>
                   <i class="fas fa-chess-queen fa-10x"></i>
                   &nbsp;&nbsp;

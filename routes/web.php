@@ -32,3 +32,11 @@ Route::group(['prefix' => 'inasistencia', 'middleware' => 'auth'], function () {
     Route::get('/crear', 'InasistenciaController@crear');
     Route::post('/crear', 'InasistenciaController@create');
 });
+
+Route::group(['prefix' => 'seguimiento', 'middleware' => 'auth'], function () {
+    Route::get('/menu', 'SeguimientoController@index');
+    Route::get('/historial', 'SeguimientoController@ver');
+    Route::post('/no', 'SeguimientoController@no');
+    Route::post('/yes', 'SeguimientoController@si');
+    Route::post('/respuesta', 'SeguimientoController@respuesta');
+});

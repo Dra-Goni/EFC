@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAgenda">
          <div class="navbar-nav mr-auto">
             <a class="nav-item linked text-sm-center" href="{{'/'}}">inicio  </a>
-            <a class="nav-item linked text-sm-center" href="{{'/rol/menu'}}">Administrar Roles de Usuario</a>
+            {{-- <a class="nav-item linked text-sm-center" href="{{'/rol/menu'}}">Administrar Roles de Usuario</a> --}}
         
         </div>
         <div class="navbar-nav ml-auto">

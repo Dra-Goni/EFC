@@ -21,7 +21,7 @@
     <div class="container mt-5">
     <div class="form-row">
         <div class="form-group col-12 text-center">
-            <h5>Descripcion de Cargo</h5>
+            <h5>Todos Los Alumnos</h5>
         </div>
     </div>
     <div class="table-responsive">

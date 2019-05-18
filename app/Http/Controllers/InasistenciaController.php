@@ -19,6 +19,7 @@ class InasistenciaController extends Controller
             $inasistencia->INA_ALUMNO = $request->INA_ALUMNO;
             $inasistencia->INA_USUARIO = Auth::id();
             $inasistencia->INA_SECCION = $request->INA_SECCION;
+            $inasistencia->INA_ESTADO = 'Pendiente';
             $inasistencia->save();
             return redirect('/inasistencia/crear')->with('msg', 'Registro Inasistencia Creado Correctamente');
     }
