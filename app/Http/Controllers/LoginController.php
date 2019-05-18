@@ -22,8 +22,7 @@ class LoginController extends Controller
     
          
          if (Auth::attempt($userdata)) {
-           echo "oka";
-             //return redirect('/menu');
+             return redirect('/menu');
         }else{
          
              return redirect('/login')->with('popup', 'open');
